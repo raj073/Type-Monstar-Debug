@@ -33,7 +33,7 @@ body {
 }
 
 #display {
-  height: 100px;
+  height: 140px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
