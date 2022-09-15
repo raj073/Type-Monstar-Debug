@@ -158,7 +158,7 @@ button {
 .card {
   width: 100%;
   height: 100%;
-  padding: 50px;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -171,6 +171,9 @@ button {
       rgba(255, 255, 255, 0.05) 99.85%);
   backdrop-filter: blur(5px);
   margin-bottom: 30px;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
 }
 
 #modal-background {
@@ -198,6 +201,6 @@ button {
   #histories {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 }
