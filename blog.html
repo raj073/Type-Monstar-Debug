@@ -13,7 +13,7 @@
 </head>
 
 <body style="color:white">
-  <h1 class="title"><img src="./logo.png" /></h1>
+  <h1 class="title">Featured Blogs</h1>
 
   <div class="box-container">
     <div class="divider-container">
@@ -22,9 +22,9 @@
       <div class="line"></div>
     </div>
 
-    <b>1. Difference between local storage and session storage?</b>
+    <h3><b>1. Difference between local storage and session storage?</b></h3>
     <br>
-    <p> <i> <strong> <b>Explanation: </b> </strong></i>
+    <p> <i> <strong> Explanation: </strong></i>
     <article>localStorage persists the storage across browser sessions. So even if the domain is opened in a new tab, or
       the browser is closed and reopened, the storage is saved. There is no expiration.
       sessionStorage is cleared when the page session ends. A page session lasts as long as the tab or the
@@ -38,20 +38,60 @@
     </article>
     </p>
     <br>
-    <b>2. Difference between global scope and block scope in javascript?</b>
+    <h3><b>2. Difference between global scope and block scope in javascript?</b></h3>
     <br>
-
-    <p> <i> <strong> <b>Explanation: </b> </strong></i>
-
-
+    <p> <i> <strong>Explanation: </strong></i>
+    <article>
+      <strong>Function Scope: </strong> When a variable is declared inside a function, it is only accessible within that
+      function and
+      cannot be
+      used outside that function. <br> <strong>Block Scope:</strong> A variable when declared inside the if or switch
+      conditions or
+      inside for
+      or
+      while loops, are accessible within that particular condition or loop.
+    </article>
+    <article>
+      Basically, the difference between function scope and block scope is that in a language that uses function scope,
+      any
+      variables declared within a function are visible anywhere within that same function. But with block scope, the
+      visibility of variables is confined to any given block (whether it's an if statement, where/for loop, etc)
+      enclosed by
+      curly braces.
+    </article>
     </p>
-
     <br>
-    <b>3. How does javascript event loop work?</b>
+    <h3><b>3. How does javascript event loop work?</b></h3>
     <br>
+    <p><i><strong>Explanation: </strong></i></p>
+    <article>
+      The event loop is a mechanism that allows JavaScript to perform non-blocking operations. When an asynchronous task
+      is started, the event loop will start running. Once the task is completed, the event loop will again check for any
+      other tasks that need to be performed.
+    </article>
+    <article>
+      It is a process that waits for the Call Stack to be clear before pushing callbacks from the Task Queue to
+      the Call Stack. Once the Stack is clear, the event loop triggers and checks the Task Queue for available
+      callbacks. If
+      there are any, it pushes it to the Call Stack, waits for the Call Stack to be clear again, and repeats the same
+      process.
+    </article>
     <br>
-    <b>4. In what cases we can get undefined value is Javascript?</b>
-
+    <h3><b>4. In what cases we can get undefined value is Javascript?</b></h3>
+    <br>
+    <p> <i> <strong> Explanation: </strong></i>
+    <article>
+      The undefined property indicates that a variable has not been assigned a value or not declared at all.
+    </article>
+    <article>
+      When a variable has no value assigned, then we can get undefined value from that varibale. If a function is
+      declared without any return or only a return keyword without value then we also get undefined here. Any operation
+      like adding, multiply etc with the
+      value of
+      undefined with give the result undefined. In any object if there we access a property which is not present, this
+      will
+      give undefined. Array out of index value or accessing array value which is deleted already will provide undefined
+    </article>
 
   </div>
 
